@@ -1,0 +1,10 @@
+/build
+/Makefile
+/deps
+/test
+/tools
+/.gitmodules
+/.npmignore
+/.eslintrc
+/coverage
+*.tgz

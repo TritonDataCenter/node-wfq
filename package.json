@@ -1,0 +1,26 @@
+{
+  "name": "wfq",
+  "version": "0.0.0",
+  "description": "Library for performing weighted fair queueing",
+  "keywords": [ "wfq", "queuing", "scheduling" ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joyent/node-wfq.git"
+  },
+  "main": "lib/wfq.js",
+  "dependencies": {
+    "assert-plus": "^1.0.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.6",
+    "faucet": "0.0.1",
+    "tape": "^3.5.0",
+    "eslint": "^4.13.1",
+    "eslint-plugin-joyent": "~2.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover --print none test/runall.js"
+  },
+  "author": "Joyent (joyent.com)",
+  "license": "MPL-2.0"
+}
